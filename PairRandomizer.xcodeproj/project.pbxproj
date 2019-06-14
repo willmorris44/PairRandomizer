@@ -11,6 +11,28 @@
 		E445774522B3F03A0069F1E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E445774322B3F03A0069F1E3 /* Main.storyboard */; };
 		E445774722B3F03E0069F1E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E445774622B3F03E0069F1E3 /* Assets.xcassets */; };
 		E445774A22B3F03E0069F1E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E445774822B3F03E0069F1E3 /* LaunchScreen.storyboard */; };
+		E445776A22B3F3380069F1E3 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E445775C22B3F3370069F1E3 /* GoogleUtilities.framework */; };
+		E445776B22B3F3380069F1E3 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E445775D22B3F3370069F1E3 /* FirebaseCoreDiagnostics.framework */; };
+		E445776C22B3F3380069F1E3 /* gRPC-Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E445775E22B3F3370069F1E3 /* gRPC-Core.framework */; };
+		E445776D22B3F3380069F1E3 /* gRPC-C++.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E445775F22B3F3370069F1E3 /* gRPC-C++.framework */; };
+		E445776E22B3F3380069F1E3 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E445776022B3F3370069F1E3 /* Protobuf.framework */; };
+		E445776F22B3F3380069F1E3 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E445776122B3F3370069F1E3 /* nanopb.framework */; };
+		E445777022B3F3380069F1E3 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E445776222B3F3370069F1E3 /* FirebaseInstanceID.framework */; };
+		E445777122B3F3380069F1E3 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E445776322B3F3370069F1E3 /* leveldb-library.framework */; };
+		E445777222B3F3380069F1E3 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E445776422B3F3370069F1E3 /* FirebaseCore.framework */; };
+		E445777322B3F3380069F1E3 /* BoringSSL-GRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E445776522B3F3370069F1E3 /* BoringSSL-GRPC.framework */; };
+		E445777422B3F3380069F1E3 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E445776622B3F3370069F1E3 /* FirebaseAnalytics.framework */; };
+		E445777522B3F3380069F1E3 /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E445776722B3F3370069F1E3 /* FIRAnalyticsConnector.framework */; };
+		E445777622B3F3380069F1E3 /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E445776822B3F3370069F1E3 /* FirebaseFirestore.framework */; };
+		E445777722B3F3380069F1E3 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E445776922B3F3370069F1E3 /* GoogleAppMeasurement.framework */; };
+		E445777922B3F3440069F1E3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E445777822B3F3440069F1E3 /* libc++.tbd */; };
+		E445777B22B3F3610069F1E3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E445777A22B3F3610069F1E3 /* libsqlite3.tbd */; };
+		E445777D22B3F3680069F1E3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E445777C22B3F3680069F1E3 /* StoreKit.framework */; };
+		E445777F22B3F3D00069F1E3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E445777E22B3F3D00069F1E3 /* Person.swift */; };
+		E445778422B3F4CA0069F1E3 /* gRPCCertificates-Cpp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E445778322B3F4CA0069F1E3 /* gRPCCertificates-Cpp.bundle */; };
+		E445778622B3F4D90069F1E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E445778522B3F4D90069F1E3 /* GoogleService-Info.plist */; };
+		E445778822B3F50F0069F1E3 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E445778722B3F50F0069F1E3 /* PersonController.swift */; };
+		E445778A22B3FD5A0069F1E3 /* PairListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E445778922B3FD5A0069F1E3 /* PairListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +42,28 @@
 		E445774622B3F03E0069F1E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E445774922B3F03E0069F1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E445774B22B3F03E0069F1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E445775C22B3F3370069F1E3 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Carthage/Build/iOS/GoogleUtilities.framework; sourceTree = "<group>"; };
+		E445775D22B3F3370069F1E3 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Carthage/Build/iOS/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		E445775E22B3F3370069F1E3 /* gRPC-Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gRPC-Core.framework"; path = "Carthage/Build/iOS/gRPC-Core.framework"; sourceTree = "<group>"; };
+		E445775F22B3F3370069F1E3 /* gRPC-C++.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gRPC-C++.framework"; path = "Carthage/Build/iOS/gRPC-C++.framework"; sourceTree = "<group>"; };
+		E445776022B3F3370069F1E3 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Protobuf.framework; path = Carthage/Build/iOS/Protobuf.framework; sourceTree = "<group>"; };
+		E445776122B3F3370069F1E3 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = Carthage/Build/iOS/nanopb.framework; sourceTree = "<group>"; };
+		E445776222B3F3370069F1E3 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Carthage/Build/iOS/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		E445776322B3F3370069F1E3 /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "leveldb-library.framework"; path = "Carthage/Build/iOS/leveldb-library.framework"; sourceTree = "<group>"; };
+		E445776422B3F3370069F1E3 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Carthage/Build/iOS/FirebaseCore.framework; sourceTree = "<group>"; };
+		E445776522B3F3370069F1E3 /* BoringSSL-GRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "BoringSSL-GRPC.framework"; path = "Carthage/Build/iOS/BoringSSL-GRPC.framework"; sourceTree = "<group>"; };
+		E445776622B3F3370069F1E3 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Carthage/Build/iOS/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		E445776722B3F3370069F1E3 /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FIRAnalyticsConnector.framework; path = Carthage/Build/iOS/FIRAnalyticsConnector.framework; sourceTree = "<group>"; };
+		E445776822B3F3370069F1E3 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseFirestore.framework; path = Carthage/Build/iOS/FirebaseFirestore.framework; sourceTree = "<group>"; };
+		E445776922B3F3370069F1E3 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = Carthage/Build/iOS/GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		E445777822B3F3440069F1E3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E445777A22B3F3610069F1E3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E445777C22B3F3680069F1E3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E445777E22B3F3D00069F1E3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E445778322B3F4CA0069F1E3 /* gRPCCertificates-Cpp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "gRPCCertificates-Cpp.bundle"; path = "Carthage/Build/iOS/FirebaseFirestore.framework/gRPCCertificates-Cpp.bundle"; sourceTree = "<group>"; };
+		E445778522B3F4D90069F1E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E445778722B3F50F0069F1E3 /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		E445778922B3FD5A0069F1E3 /* PairListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +71,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E445777D22B3F3680069F1E3 /* StoreKit.framework in Frameworks */,
+				E445777B22B3F3610069F1E3 /* libsqlite3.tbd in Frameworks */,
+				E445777922B3F3440069F1E3 /* libc++.tbd in Frameworks */,
+				E445776A22B3F3380069F1E3 /* GoogleUtilities.framework in Frameworks */,
+				E445776B22B3F3380069F1E3 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				E445776C22B3F3380069F1E3 /* gRPC-Core.framework in Frameworks */,
+				E445776D22B3F3380069F1E3 /* gRPC-C++.framework in Frameworks */,
+				E445776E22B3F3380069F1E3 /* Protobuf.framework in Frameworks */,
+				E445776F22B3F3380069F1E3 /* nanopb.framework in Frameworks */,
+				E445777022B3F3380069F1E3 /* FirebaseInstanceID.framework in Frameworks */,
+				E445777122B3F3380069F1E3 /* leveldb-library.framework in Frameworks */,
+				E445777222B3F3380069F1E3 /* FirebaseCore.framework in Frameworks */,
+				E445777322B3F3380069F1E3 /* BoringSSL-GRPC.framework in Frameworks */,
+				E445777422B3F3380069F1E3 /* FirebaseAnalytics.framework in Frameworks */,
+				E445777522B3F3380069F1E3 /* FIRAnalyticsConnector.framework in Frameworks */,
+				E445777622B3F3380069F1E3 /* FirebaseFirestore.framework in Frameworks */,
+				E445777722B3F3380069F1E3 /* GoogleAppMeasurement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,8 +97,11 @@
 		E445773322B3F03A0069F1E3 = {
 			isa = PBXGroup;
 			children = (
+				E445778522B3F4D90069F1E3 /* GoogleService-Info.plist */,
+				E445778322B3F4CA0069F1E3 /* gRPCCertificates-Cpp.bundle */,
 				E445773E22B3F03A0069F1E3 /* PairRandomizer */,
 				E445773D22B3F03A0069F1E3 /* Products */,
+				E445775B22B3F3370069F1E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +155,7 @@
 		E445775422B3F0C40069F1E3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E445777E22B3F3D00069F1E3 /* Person.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -98,6 +163,7 @@
 		E445775522B3F0C90069F1E3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				E445778922B3FD5A0069F1E3 /* PairListTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -105,8 +171,33 @@
 		E445775622B3F0CF0069F1E3 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				E445778722B3F50F0069F1E3 /* PersonController.swift */,
 			);
 			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		E445775B22B3F3370069F1E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E445777C22B3F3680069F1E3 /* StoreKit.framework */,
+				E445777A22B3F3610069F1E3 /* libsqlite3.tbd */,
+				E445777822B3F3440069F1E3 /* libc++.tbd */,
+				E445776522B3F3370069F1E3 /* BoringSSL-GRPC.framework */,
+				E445776722B3F3370069F1E3 /* FIRAnalyticsConnector.framework */,
+				E445776622B3F3370069F1E3 /* FirebaseAnalytics.framework */,
+				E445776422B3F3370069F1E3 /* FirebaseCore.framework */,
+				E445775D22B3F3370069F1E3 /* FirebaseCoreDiagnostics.framework */,
+				E445776822B3F3370069F1E3 /* FirebaseFirestore.framework */,
+				E445776222B3F3370069F1E3 /* FirebaseInstanceID.framework */,
+				E445776922B3F3370069F1E3 /* GoogleAppMeasurement.framework */,
+				E445775C22B3F3370069F1E3 /* GoogleUtilities.framework */,
+				E445775F22B3F3370069F1E3 /* gRPC-C++.framework */,
+				E445775E22B3F3370069F1E3 /* gRPC-Core.framework */,
+				E445776322B3F3370069F1E3 /* leveldb-library.framework */,
+				E445776122B3F3370069F1E3 /* nanopb.framework */,
+				E445776022B3F3370069F1E3 /* Protobuf.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +258,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E445778422B3F4CA0069F1E3 /* gRPCCertificates-Cpp.bundle in Resources */,
 				E445774A22B3F03E0069F1E3 /* LaunchScreen.storyboard in Resources */,
+				E445778622B3F4D90069F1E3 /* GoogleService-Info.plist in Resources */,
 				E445774722B3F03E0069F1E3 /* Assets.xcassets in Resources */,
 				E445774522B3F03A0069F1E3 /* Main.storyboard in Resources */,
 			);
@@ -180,6 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E445777F22B3F3D00069F1E3 /* Person.swift in Sources */,
+				E445778A22B3FD5A0069F1E3 /* PairListTableViewController.swift in Sources */,
+				E445778822B3F50F0069F1E3 /* PersonController.swift in Sources */,
 				E445774022B3F03A0069F1E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,10 +423,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/PairRandomizer/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = devmtn.PairRandomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -344,10 +448,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/PairRandomizer/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = devmtn.PairRandomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";

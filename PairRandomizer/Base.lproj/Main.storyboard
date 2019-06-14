@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yXj-dj-4go">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,13 +12,24 @@
         <!--Pair Randomizer-->
         <scene sceneID="u9F-hQ-8N9">
             <objects>
-                <tableViewController id="kth-sB-QQp" sceneMemberID="viewController">
+                <tableViewController id="kth-sB-QQp" customClass="PairListTableViewController" customModule="PairRandomizer" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Kf2-xU-30V">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wAa-CJ-7qe">
+                            <rect key="frame" x="0.0" y="72" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                            <state key="normal" title="Randomize">
+                                <color key="titleColor" red="0.76717092590000002" green="0.25443067089999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </state>
+                            <connections>
+                                <action selector="randomizeButtonTapped:" destination="kth-sB-QQp" eventType="touchUpInside" id="Mzj-3M-bcm"/>
+                            </connections>
+                        </button>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="jjr-Bs-1cP">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="personCell" id="jjr-Bs-1cP">
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jjr-Bs-1cP" id="sgZ-cV-VuN">
@@ -33,7 +44,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Pair Randomizer" id="4Fa-Zs-LPk">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="zMz-wV-oiB"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="zMz-wV-oiB">
+                            <connections>
+                                <action selector="addButtonTapped:" destination="kth-sB-QQp" id="COC-Ha-scY"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jrj-dY-PYZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
